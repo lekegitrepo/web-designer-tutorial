@@ -1,4 +1,15 @@
-
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #222;
+	font-size: 100%;
+	background: url(../img/space-bg.png) repeat-x fixed -80% 0;
+	background: 
+		url(../img/stars-1.png) repeat-x fixed -130% 0,
+		url(../img/stars-2.png) repeat-x fixed 40% 0,
+		url(../img/space-bg.png) repeat-x fixed -80% 0;
+	background-color: #1a1a1a;
+		/*url(../img/clouds.png) repeat-x fixed 100% 0;*/
+}
 #nav {
 	float: right;
 	padding: 42px 0 0 30px;
@@ -13,6 +24,10 @@
 	font-weight: bold;
 	padding: 5px 15px;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	border-radius: 14px;
 }
 #nav li a:hover, #nav li a:focus {
 	color: #fff;
