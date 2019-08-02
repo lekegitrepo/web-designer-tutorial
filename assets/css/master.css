@@ -38,3 +38,16 @@ body {
 	color: #fff;
 	background: rgba(255, 255, 255, 0.15);
 }
+#footer-logos {
+	text-align: center;
+}
+#footer-logos li {
+	display: inline;
+}
+#footer-logos a img {
+	opacity: 0.25;
+}
+#footer-logos a:hover img,
+#footer-logos a:focus img {
+	opacity: 0.6;
+}
