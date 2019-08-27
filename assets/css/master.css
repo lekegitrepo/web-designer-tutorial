@@ -89,6 +89,12 @@ ol#things li#things-5 a img {
   top: 20px;
   left: 34px;
 }
+ol#things li#things-1 a:hover img {
+	-webkit-transform: scale(1.25);
+	-moz-transform: scale(1.25);
+	-o-transform: scale(1.25);
+	transform: scale(1.25);
+}
 #footer-logos {
 	text-align: center;
 }
